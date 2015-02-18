@@ -3,6 +3,5 @@ environment:
 build:
   run:
     docker1: docker ps
-    docker2: docker version
     ls: ls
     env: env
