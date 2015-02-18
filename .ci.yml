@@ -1,5 +1,5 @@
 environment:
-  language: null
+  language: ruby
 build:
   run:
     docker1: docker ps
