@@ -2,4 +2,3 @@
 hello
 goodbye
 beetles
-ants
