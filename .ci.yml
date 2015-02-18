@@ -1,5 +1,3 @@
-environment:
-  language: java
 build:
   run:
     docker1: docker ps
