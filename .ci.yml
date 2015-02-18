@@ -1,6 +1,11 @@
 environment:
   language: java
 build:
+  checkout:
+    - git init
+    - git remote add origin $GIT_URL
+    - git fetch origin $DOTCI_BRANCH
+    - git reset --hard  $SHA
   run:
     docker1: docker ps
     docker2: docker version
